@@ -66,7 +66,7 @@ if (mood==='create'){
         dataPro.push(newpro)
     
     }
-    clearData()
+    
    }
 
 }
@@ -77,6 +77,7 @@ else{
     count.style.display='block'
 }
 
+clearData()
 
   localStorage.setItem('product', JSON.stringify(dataPro)  )
   showData()
